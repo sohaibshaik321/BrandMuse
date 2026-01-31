@@ -1,0 +1,40 @@
+.footer {
+  background: linear-gradient(135deg, var(--violet) 0%, var(--dark-violet) 100%);
+  color: var(--white);
+  padding: 2rem;
+  text-align: center;
+  margin-top: 3rem;
+  box-shadow: 0 -4px 20px var(--shadow);
+}
+
+.footer-text {
+  font-size: 0.95rem;
+  margin-bottom: 0.5rem;
+  opacity: 0.9;
+  font-family: 'Inter', sans-serif;
+}
+
+.footer-quote {
+  font-size: 1.1rem;
+  font-style: italic;
+  font-weight: 300;
+  opacity: 0.85;
+  font-family: 'Poppins', sans-serif;
+}
+
+@media (max-width: 768px) {
+  .footer {
+    padding: 1.5rem 1rem;
+  }
+  
+  .footer-text {
+    font-size: 0.85rem;
+  }
+  
+  .footer-quote {
+    font-size: 1rem;
+  }
+}
+
+
+
